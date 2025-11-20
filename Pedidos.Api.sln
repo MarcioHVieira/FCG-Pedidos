@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Api", "Pedidos.Api\Pedidos.Api.csproj", "{80A00ECD-BCFF-46A4-A785-80289FB7C5EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedidos.Api.Tests", "Pedidos.Api.Tests\Pedidos.Api.Tests.csproj", "{8C880CA4-45A2-46FD-9B37-82EEB6219EFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80A00ECD-BCFF-46A4-A785-80289FB7C5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A00ECD-BCFF-46A4-A785-80289FB7C5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A00ECD-BCFF-46A4-A785-80289FB7C5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A00ECD-BCFF-46A4-A785-80289FB7C5EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C880CA4-45A2-46FD-9B37-82EEB6219EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C880CA4-45A2-46FD-9B37-82EEB6219EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C880CA4-45A2-46FD-9B37-82EEB6219EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C880CA4-45A2-46FD-9B37-82EEB6219EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79106B78-D65C-45BB-B9FF-E6FFB46E79FB}
+	EndGlobalSection
+EndGlobal
