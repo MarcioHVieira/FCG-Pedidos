@@ -20,7 +20,7 @@ namespace Pedidos.Api.Application.Mappers
 
         public static PedidoResponseDto ToDto(this Pedido pedido)
         {
-            return new PedidoResponseDto{Id = pedido.Id, UsuarioId = pedido.UsuarioId, JogoId = pedido.JogoId, 
+            return new PedidoResponseDto{Id = pedido.Id, UsuarioId = pedido.UsuarioId, UsuarioNome = pedido.UsuarioNome, JogoId = pedido.JogoId, 
                                          JogoTitulo = pedido.JogoTitulo, Valor = pedido.Valor, Status = pedido.Status };
         }
     }
